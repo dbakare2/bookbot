@@ -1,1 +1,1 @@
-Bookbot is my first fit project!
+Bookbot is my first git project!
