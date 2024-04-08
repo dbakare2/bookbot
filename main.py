@@ -1,8 +1,9 @@
 def main():
-    book_path = "books/Frankenstein.txt"
+    book_path = "../Frankenstein.txt"
     #"github.com/dbakare2/bookbot/books/Frankenstein.txt"
     text = get_book_text(book_path)
     num_words = word_counter(text)
+    print(text)
     print(f"{num_words} words found in the document")
 
 def get_book_text(path):
@@ -29,6 +30,3 @@ def letter_counter(text):
             #l_count.append({'l_string':'count.l_string'})
 
 main()
-
-
-
